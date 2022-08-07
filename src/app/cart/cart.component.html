@@ -4,3 +4,10 @@
   <span>{{ item.name }}</span>
   <span>{{ item.price }}</span>
 </div>
+<div class="mb-0 me-5 d-flex justify-content-between">
+  <span></span>
+  <p class="align-self-end">
+    <span class="small text-muted me-2">Order total:</span>
+    <span class="lead fw-normal"> {{ total | currency }}</span>
+  </p>
+</div>
